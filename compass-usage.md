@@ -29,11 +29,13 @@ Compass Usage
 
 
 ##Compass config with webstorm watcher
+
 ###Edit Watcher
 - File Type: SCSS files
 - Scope: Project Files
 - Program: /usr/local/bin/compass [path/to/ruby/bin/compass.bat]
-- Arguments: compile --config $FileParentDir$/config.rb
+- Arguments: `compile --config $FileParentDir$/config.rb`
 - Working directory: $FileParentDir$/
+
 ###config.rb
 compass create compass_project_name
