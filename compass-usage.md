@@ -2,11 +2,11 @@ Compass Usage
 =============
 
 ##Compass Modules
-  - 1. reset
-  - 2. css3
-  - 3. layout
-  - 4. typography
-  - 5. utilities
+  1. reset
+  2. css3
+  3. layout
+  4. typography
+  5. utilities
   
 ```css
 @import "compass/reset";
