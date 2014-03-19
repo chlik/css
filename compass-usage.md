@@ -24,3 +24,16 @@ Compass Usage
 `` @import "compass/layout"; ``
 - @include sticky-footer(54px); [sticky footer](http://compass-style.org/examples/compass/layout/sticky-footer/)
 - @include stretch; [Stretching](http://compass-style.org/reference/compass/layout/stretching/)
+ 
+
+
+
+##Compass config with webstorm watcher
+###Edit Watcher
+File Type: SCSS files
+Scope: Project Files
+Program: /usr/local/bin/compass [path/to/ruby/bin/compass.bat]
+Arguments: compile --config $FileParentDir$/config.rb
+Working directory: $FileParentDir$/
+###config.rb
+compass create compass_project_name
