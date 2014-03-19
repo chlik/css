@@ -8,11 +8,11 @@ Compass Usage
   - 4. typography
   - 5. utilities
   
-'''css
+```css
 @import "compass/reset";
-'''
+```
 ###CSS3 Modules
-'' @import "compass/css3"; ''
+`` @import "compass/css3"; ``
 - @include border-radius(5px);
 - @include border-radius(5px 4px 3px 2px);
 - @include border-corner-radius(top, left, 5px);
@@ -21,6 +21,6 @@ Compass Usage
 
 
 ###Layout Modules
-'' @import "compass/layout"; ''
+`` @import "compass/layout"; ``
 - @include sticky-footer(54px); [sticky footer](http://compass-style.org/examples/compass/layout/sticky-footer/)
 - @include stretch; [Stretching](http://compass-style.org/reference/compass/layout/stretching/)
